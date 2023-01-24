@@ -136,16 +136,6 @@ Upon creation, a Receipt’s IssuedOn should be set to the current moment.
 * Root Admin (logged in) can access every functionality a logged in Admin can.
 * Root Admin (logged in) role cannot be changed.
 
-## Technologies
-* Java - [JDK11](https://www.oracle.com/technetwork/java/javase/downloads/jdk11-downloads-5066655.html)
-
-## Built With
-* [Maven](https://maven.apache.org/) - Dependency Management
-
-## Version
-1.0-SNAPSHOT
-
-
 ## License
 This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/mgpavlov/OnlineGroceryStore-Application/blob/master/LICENSE) file for details
 ___
@@ -165,10 +155,6 @@ System and IDE should be configured to use:
 * [Java **11.0.2**](https://docs.oracle.com/cd/E19509-01/820-3208/inst_cli_jdk_javahome_t/) - [IntelliJ](https://stackoverflow.com/questions/18987228/how-do-i-change-the-intellij-idea-default-jdk)
 * [Maven **3.6.0**](http://maven.apache.org/install.html) - [IntelliJ](https://www.jetbrains.com/help/idea/maven-support.html#create_new_maven_project)
 * [mysql-connector-java](https://dev.mysql.com/doc/connector-j/8.0/en/connector-j-installing-classpath.html) - [IntelliJ](https://www.jetbrains.com/help/idea/connecting-to-a-database.html)
-___
-#### Project configuration
-* [pom.xml](https://github.com/mgpavlov/OnlineGroceryStore-Application/blob/master/pom.xml) - project setup - dependencies, compile, packaging
-* [application.properties](https://github.com/mgpavlov/OnlineGroceryStore-Application/blob/master/src/main/resources/application.properties) 
 ___
 ### ScreenShots:
 
