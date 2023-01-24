@@ -1,6 +1,7 @@
-# Online Grocery Store
+# E Commerce Application
 
-Online Grocery Shop is a system that registers users, categories, products, manages orders.It creates offers for random discounted products which are changed after a certain time.
+This project has been done towards partial fulfilment of the course CS F213 – Object Oriented Programming in the odd semester AY 2022-23.
+It is a system that registers users, categories, products, manages orders.
 ___
 ## Project Functionality
 
