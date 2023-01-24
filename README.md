@@ -10,5 +10,5 @@ It is a system that registers users, categories, products, manages orders.
 * [LinkedIn](https://www.linkedin.com/in/akshat-deshmukh/)
 
 **Akshat Singh** 
-* [GitHub](https://github.com/akshatt-d)
+* [GitHub](https://github.com/akshatrksingh)
 * [LinkedIn](https://www.linkedin.com/in/axatsngh/)
