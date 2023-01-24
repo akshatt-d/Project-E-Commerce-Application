@@ -2,10 +2,20 @@
 
 This project has been done towards partial fulfilment of the course CS F213 – Object Oriented Programming in the odd semester AY 2022-23.
 It is a system that registers users, categories, products, manages orders.
-___
+
+## Team Members
+
+**Akshat Deshmukh** 
+* [GitHub](https://github.com/akshatt-d)
+* [LinkedIn](https://www.linkedin.com/in/akshat-deshmukh/)
+
+**Akshat Singh** 
+* [GitHub](https://github.com/akshatt-d)
+* [LinkedIn](https://www.linkedin.com/in/axatsngh/)
+
 ## Project Functionality
 
-### [Users](https://github.com/mgpavlov/OnlineGroceryStore-Application/blob/master/src/main/java/org/softuni/onlinegrocery/domain/entities/User.java)
+### [Users](https://github.com/akshatrksingh/Project-E-Commerce-Application/blob/main/src/main/java/org/softuni/onlinegrocery/domain/entities/User.java)
 The first registered User should be assigned a role – "Root Admin". Every User after that, should have a role – "User".
 "Root Admin" can change other users Role to "Moderator" or "Admin".
 Users can add products to their "Bag" and after that can chekout products and create order with status "Pending". User's Orders are controlled for them, by Administrators (role = "Admin" or "Moderator"). 
@@ -62,12 +72,12 @@ Administrators can also manage orders for a specific User.
 * Deliver Orders
 * Change all Users Role except Root Admin profile.
 
-### [Products](https://github.com/mgpavlov/OnlineGroceryStore-Application/blob/master/src/main/java/org/softuni/onlinegrocery/domain/entities/Product.java)
+### [Products](https://github.com/akshatrksingh/Project-E-Commerce-Application/blob/main/src/main/java/org/softuni/onlinegrocery/domain/entities/Product.java)
 Products are created with a Name, a Description, a Price, a Image Url, and Categories to wich it belongs. 
-### [Offers](https://github.com/mgpavlov/OnlineGroceryStore-Application/blob/master/src/main/java/org/softuni/onlinegrocery/domain/entities/Offer.java)
+### [Offers](https://github.com/akshatrksingh/Project-E-Commerce-Application/blob/main/src/main/java/org/softuni/onlinegrocery/domain/entities/Offer.java)
 Offers are created randomly using The @Scheduled Annotation in Spring
 with random Product and new discounted Price;
-### [Orders](https://github.com/mgpavlov/OnlineGroceryStore-Application/blob/master/src/main/java/org/softuni/onlinegrocery/domain/entities/Order.java)
+### [Orders](https://github.com/akshatrksingh/Project-E-Commerce-Application/blob/main/src/main/java/org/softuni/onlinegrocery/domain/entities/Order.java)
 When Orders are created, they are created with a list of Products, a Total Price, a Shipping Address and a Recipient User. 
 * Upon creation, the Status of a Order should be set to Pending.
 * Upon creation, the Issued On Date of a Order should be set to current date.
@@ -92,7 +102,7 @@ NOTE: Acquired Packages are viewable only by Administrators on the Delivered Pac
 NOTE: Administrators can view details about ALL Delivered / Acquired Packages from the
 Delivered Packages Page, by clicking on the [Details] button.
 
-### [Receipts](https://github.com/mgpavlov/OnlineGroceryStore-Application/blob/master/src/main/java/org/softuni/onlinegrocery/domain/entities/Receipt.java)
+### [Receipts](https://github.com/akshatrksingh/Project-E-Commerce-Application/blob/main/src/main/java/org/softuni/onlinegrocery/domain/entities/Receipt.java)
 Receipts are just data entities. They are created when a Order is Acquired by its Recipient User. 
 A Receipt should be created with a Order and a Recipient User.
 Upon creation, a Receipt’s IssuedOn should be set to the current moment.
@@ -126,27 +136,6 @@ Upon creation, a Receipt’s IssuedOn should be set to the current moment.
 * Root Admin (logged in) can access every functionality a logged in Admin can.
 * Root Admin (logged in) role cannot be changed.
 
-___
-
-## The Database of the Application support 8 entities:
-
-[User](https://github.com/mgpavlov/OnlineGroceryStore-Application/blob/master/src/main/java/org/softuni/onlinegrocery/domain/entities/User.java)
-
-[Role](https://github.com/mgpavlov/OnlineGroceryStore-Application/blob/master/src/main/java/org/softuni/onlinegrocery/domain/entities/Role.java)
-
-[Category](https://github.com/mgpavlov/OnlineGroceryStore-Application/blob/master/src/main/java/org/softuni/onlinegrocery/domain/entities/Category.java)
-
-[Product](https://github.com/mgpavlov/OnlineGroceryStore-Application/blob/master/src/main/java/org/softuni/onlinegrocery/domain/entities/Product.java)
-
-[OrderProduct](https://github.com/mgpavlov/OnlineGroceryStore-Application/blob/master/src/main/java/org/softuni/onlinegrocery/domain/entities/OrderProduct.java)
-
-[Order](https://github.com/mgpavlov/OnlineGroceryStore-Application/blob/master/src/main/java/org/softuni/onlinegrocery/domain/entities/Order.java)
-
-[Offer](https://github.com/mgpavlov/OnlineGroceryStore-Application/blob/master/src/main/java/org/softuni/onlinegrocery/domain/entities/Offer.java)
-
-[Receipt](https://github.com/mgpavlov/OnlineGroceryStore-Application/blob/master/src/main/java/org/softuni/onlinegrocery/domain/entities/Receipt.java)
-
-
 ## Technologies
 * Java - [JDK11](https://www.oracle.com/technetwork/java/javase/downloads/jdk11-downloads-5066655.html)
 
@@ -156,10 +145,6 @@ ___
 ## Version
 1.0-SNAPSHOT
 
-## Author
-**Mihail Pavlov** 
-* [GitHub](https://github.com/mgpavlov)
-* [LinkedIn](https://www.linkedin.com/in/mihail-georgiev-pavlov/)
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/mgpavlov/OnlineGroceryStore-Application/blob/master/LICENSE) file for details
